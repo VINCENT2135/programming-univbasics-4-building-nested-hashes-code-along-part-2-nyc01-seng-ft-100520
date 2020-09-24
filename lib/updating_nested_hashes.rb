@@ -20,7 +20,7 @@ epic_tragedy = {
   }
 }
 
-
+end
 
   # Write code that changes the status of both Romeo and Juliet from "alive" to "dead"
   # Code your solution here:
@@ -31,7 +31,6 @@ epic_tragedy = {
 
   # After your code, the following code will return the altered hash. This method must only return the modified epic_tragedy hash
   epic_tragedy
-end
 
 def add_characters
    epic_tragedy[:additional_characters][0] = { name: "Prince Escalus" }
@@ -51,4 +50,4 @@ end
          :matriarch => {name: "Lady Capulet", age: "51"},
          :heroine => {name: "Juliet", age: "15", status: "alive"},
          :heroine_friends
-       end
+  
